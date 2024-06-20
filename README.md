@@ -11,12 +11,12 @@ This project is a Streamlit application that converts YouTube video transcripts 
 -Clustering: Implements KMeans clustering to extract and display important subtopics.Question-Answering: Provides a feature for users to ask questions about the video and get responses based on the transcript.
 
 ## Installation
-1. Clone the Repository:
+1. **Clone the Repository**:
 
 git clone https://github.com/dhanesh9/Youtube-Video-Summarizer.git
 cd Youtube-Video-Summarizer
 
-2.Create a Virtual Environment:
+2.**Create a Virtual Environment**:
 
 For Windows:
 python -m venv venv
@@ -26,11 +26,11 @@ For macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
-3.Install the Required Packages:
+3.**Install the Required Packages**:
 
 pip install -r requirements.txt
 
-4.Create a .env File:
+4.**Create a .env File**:
 Create a .env file in the root directory of the project and add your API key:
 
 plaintext
@@ -38,18 +38,16 @@ Copy code
 GOOGLE_API_KEY=your_google_api_key
 
 ## Usage
-1. Run the Streamlit Application:
+1. **Run the Streamlit Application**: streamlit run app.py
 
-streamlit run app.py
-
-2. Enter the YouTube Video Link:
+2. **Enter the YouTube Video Link**:
 Paste the YouTube video link into the input field.
 
-3. Filter Keywords:
+3. **Filter Keywords**:
 Enter keywords to filter important timestamps (optional).
 
-4. Generate Detailed Notes:
+4. **Generate Detailed Notes**:
 Click the "Get Detailed Notes" button to generate and view the detailed notes.
 
-5. Ask a Question:
+5. **Ask a Question**:
 Enter a question about the video content and click "Get Answer" to receive an AI-generated response.
