@@ -12,6 +12,7 @@ This project is a Streamlit application that converts YouTube video transcripts 
 
 ## Installation
 
+
 1. **Clone the Repository**:
 
 git clone https://github.com/dhanesh9/Youtube-Video-Summarizer.git
