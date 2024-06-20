@@ -11,6 +11,7 @@ This project is a Streamlit application that converts YouTube video transcripts 
 -Clustering: Implements KMeans clustering to extract and display important subtopics.Question-Answering: Provides a feature for users to ask questions about the video and get responses based on the transcript.
 
 ## Installation
+
 1. **Clone the Repository**:
 
 git clone https://github.com/dhanesh9/Youtube-Video-Summarizer.git
