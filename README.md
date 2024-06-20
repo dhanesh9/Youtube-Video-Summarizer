@@ -17,7 +17,7 @@ This project is a Streamlit application that converts YouTube video transcripts 
    git clone https://github.com/dhanesh9/Youtube-Video-Summarizer.git
    cd Youtube-Video-Summarizer
 
-**2.****Create a Virtual Environment**:
+**2.** **Create a Virtual Environment**:
 
   For Windows:
   python -m venv venv
@@ -27,11 +27,11 @@ This project is a Streamlit application that converts YouTube video transcripts 
   python3 -m venv venv
   source venv/bin/activate
 
-**3.****Install the Required Packages**:
+**3.** **Install the Required Packages**:
 
   pip install -r requirements.txt
 
-**4.****Create a .env File**:
+**4.** **Create a .env File**:
   Create a .env file in the root directory of the project and add your API key:
   GOOGLE_API_KEY=your_google_api_key
 
